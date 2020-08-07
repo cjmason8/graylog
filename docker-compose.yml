@@ -16,7 +16,7 @@ services:
       - http.host=0.0.0.0
       - transport.host=localhost
       - network.host=0.0.0.0
-      - "ES_JAVA_OPTS=-Xm1024m -Xmx1024m"
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
       - TZ=Australia/Melbourne
     ulimits:
       memlock:
