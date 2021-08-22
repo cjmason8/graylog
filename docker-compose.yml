@@ -33,7 +33,7 @@ services:
       # CHANGE ME (must be at least 16 characters)!
       - GRAYLOG_PASSWORD_SECRET=somepasswordpepper
       - GRAYLOG_ROOT_PASSWORD_SHA2=fd16172490a23a255d5f752cb8fd9949f1a439167b36b10565ced580c631b00f
-      - GRAYLOG_HTTP_EXTERNAL_URI=http://167.86.68.204:9000/
+      - GRAYLOG_HTTP_EXTERNAL_URI=http://161.97.133.187:9000/
       - GRAYLOG_TIMEZONE=Australia/Melbourne
       - GRAYLOG_DEFAULT_JAVA_OPTS="-Xm1024m -Xmx1024m"
       - TZ=Australia/Melbourne
